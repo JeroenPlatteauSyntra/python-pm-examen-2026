@@ -2,6 +2,8 @@
 
 
 def add(expr: str) -> int:
+    """Add numbers in a string expression."""
+
     expr = _normalize_separators(expr)
 
     if not expr:
